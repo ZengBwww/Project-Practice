@@ -1,0 +1,251 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: '华文中宋';
+}
+/* 1366px*675px */
+body{
+    width: 1366px;
+    margin: 0 auto;
+}
+
+img{
+    display: block;
+}
+
+/* 导航栏 */
+nav{
+    height: 60px;
+    background-image: url(../images/nav_bg.png);
+    display: flex;
+    justify-content: end;
+    position: relative;
+    z-index: 999999;
+}
+
+nav ul{
+    height: 60px;
+    display: flex;
+    align-items: center;
+}
+
+nav ul li a{
+    padding: 0 30px;
+    color: rgb(0, 0, 0);
+    font-size: 24px;
+    line-height: 60px;
+}
+
+section{
+    width: 1366px;
+    height: 768px;
+    position: relative;
+    background-image: url(../images/game/黑白底图.png);
+    background-size: 100% 101%;
+}
+
+section#one{
+    height: 649px;
+}
+
+section#one .logo{
+    width: 166px;
+    height: auto;
+    position: absolute;
+    left: 23px;
+    top: 0;
+}
+
+section#one .title{
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translate(0,-50%);
+}
+
+section#one .person_bg{
+    height: 700px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+section#one ul{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    position: absolute;
+    left: 76px;
+    top: 517px;
+}
+
+section#two{
+    height: 654px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.section_title img{
+    width: 378px;
+    height: 94px;
+    object-fit: cover;
+    position: absolute;
+    left: 507px;
+    top: 51px;
+}
+
+section#two .content_img{
+    position: absolute;
+    width: 1040px;
+    height: 418px;
+    left: 177px;
+    top: 50%;
+    transform: translate(0,-50%);
+}
+
+.role_introduce{
+    height: 585px!important;
+}
+
+.role_introduce .bg{
+    position: absolute;
+    width: 584px!important;
+    height: 521px;
+    left: 180px;
+    top: 42px;
+    z-index: 1;
+}
+
+.role_introduce .left_person,
+.role_introduce .introduce_img{
+    position: absolute;
+}
+
+.role_introduce .rwda{
+    position: absolute;
+    width: 300px;
+    height: 68px;
+    object-fit: cover;
+    left: 837px;
+    top: 105px;
+}
+
+#three .left_person{
+    width: 368px;
+    height: auto;
+    object-fit: cover;
+    left: 254px;
+    bottom: 0;
+    z-index: 999;
+}
+#three .introduce_img{
+    width: 468px;
+    height: 313px;
+    left: 764px;
+    top: 220px;
+}
+
+#four .left_person{
+    width: 266px;
+    height: 435px;
+    object-fit: cover;
+    left: 318px;
+    bottom: 0;
+    z-index: 999;
+}
+#four .introduce_img{
+    width: 468px;
+    height: 313px;
+    left: 764px;
+    top: 220px;
+}
+
+#five .left_person{
+    width: 319px;
+    height: 438px;
+    object-fit: cover;
+    left: 285px;
+    bottom: 0;
+    z-index: 999;
+}
+#five .introduce_img{
+    width: 469px;
+    height: 313px;
+    left: 764px;
+    top: 220px;
+}
+
+#six .left_person{
+    width: 282px;
+    height: 424px;
+    object-fit: cover;
+    left: 305px;
+    bottom: 0;
+    z-index: 999;
+}
+#six .introduce_img{
+    width: 469px;
+    height: 313px;
+    left: 764px;
+    top: 220px;
+}
+
+#seven .left_person{
+    width: 343px;
+    height: 458px;
+    object-fit: cover;
+    left: 271px;
+    bottom: 0;
+    z-index: 999;
+}
+#seven .introduce_img{
+    width: 469px;
+    height: 313px;
+    left: 764px;
+    top: 220px;
+}
+
+#eight .section_title{
+    width: 300px;
+    height: auto;
+    position: absolute;
+    left: 50%;
+    top: 76px;
+    transform: translate(-50%,-50%);
+}
+#eight .section_content img:nth-child(2){
+    position: absolute;
+    left: 685px;
+    top: 189px;
+    width: 527px;
+    height: 527px;
+}
+#eight .section_content img:nth-child(1){
+    position: absolute;
+    left: 132px;
+    top: 189px;
+    width: 527px;
+    height: 527px;
+}
+
+#night .section_title{
+    position: absolute;
+    top: 76px;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+#night .video_show{
+    width: 640px;
+    height: 360px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    
+}

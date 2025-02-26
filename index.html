@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>首页</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/footer.css">
+</head>
+<body>
+    <header>
+        <div class="banner">
+            <nav>
+                <ul>
+                    <li>
+                        <a href="index.html">首页</a>
+                    </li>
+                    <li>
+                        <a href="exprence.html">案例库</a>
+                    </li>
+                    <li>
+                        <a href="game.html">互动游戏</a>
+                    </li>
+                    <li>
+                        <a href="community.html">在线社区</a>
+                    </li>
+                    <li>
+                        <a href="about.html">关于我们</a>
+                    </li>
+                </ul>
+            </nav>
+            <img class="bg" src="images/home/首页背景图.png" alt="">
+            <img src="images/home/首页灵御logo.png" alt="" class="logo">
+            <img src="images/home/首页蜘蛛网.png" alt="" class="zzw">
+            <img src="images/home/text.png" alt="" class="text">
+        </div>
+    </header>
+    <section id="one">
+        <div class="left">
+            <p class="animate_text">诈骗汹汹</p>
+            <p class="animate_text">如鬼魅潜藏</p>
+            <p class="animate_text">蓄意布设狡黠迷障</p>
+            <p class="animate_text">步步为营</p>
+            <p class="animate_text">扯碎信任之网</p>
+            <p class="animate_text">网络陷阱之险汹涌来袭</p>
+            <p class="animate_text">危及无数</p>
+            <img class="person" src="images/home/左边下坠的人.png" alt="">
+        </div>
+        <div class="center">
+            <img src="images/home/“诈”.png" class="center_b_img" alt="">
+            <img class="person" src="images/home/中间下坠的人.png" alt="">
+        </div>
+        <div class="right">
+            <div class="right_content">
+                <p class="animate_text">信息洪流之中</p>
+                <p class="animate_text">诈骗手段花样百出</p>
+                <p class="animate_text">或佯装亲友急需救助</p>
+                <p class="animate_text">或伪饰官方权威诱导</p>
+                <p class="animate_text">善良之人防不胜防</p>
+                <img class="person" src="images/home/右边下坠的人.png" alt="">
+            </div>
+        </div>
+    </section>
+    <section id="two">
+        <div class="text">
+            <p class="animate_text">反诈，是安全的坚固防线。</p>
+            <p class="animate_text">虚拟天地间，我们紧握着警惕的利剑</p>
+            <p class="animate_text">案例剖析，知识传递，让骗局遁形。</p>
+            <p class="animate_text">无论身在何地，秉持同一信念，心相连，攻防同。</p>
+        </div>
+        <div class="images">
+            <img src="images/home/第三页图.png" alt="">
+            <p>识诈千里，全民同行，网络相系，平安与共</p>
+        </div>
+        <img src="images/home/第三页蜘蛛网.png" alt="" class="left">
+        <img src="images/home/第三页的手.png" alt="" class="right">
+    </section>
+    <footer>
+        <div class="footer_top">
+            <div class="logo">
+                <img src="images/footer_logo.png" alt="">
+            </div>
+            <div class="search">
+                <input type="text" placeholder="search">
+                <button>搜索</button>
+            </div>
+        </div>
+        <div class="footer_content">
+            <ul>
+                <h3>网站地图</h3>
+                <li>
+                    <a href="index.html">首页</a>
+                </li>
+                <li>
+                    <a href="exprence.html">案例库</a>
+                </li>
+                <li>
+                    <a href="game.html">互动游戏</a>
+                </li>
+                <li>
+                    <a href="community.html">在线社区</a>
+                </li>
+                <li>
+                    <a href="about.html">关于我们</a>
+                </li>
+            </ul>
+            <ul>
+                <h3>友情链接</h3>
+                <li>
+                    <a href="https://beige-dinosaur-1f00c5.mysxl.cn/">狗不过狗</a>
+                </li>
+                <li>
+                    <a href="http://www.commedia.org.cn/~2022g9/">请回答2025</a>
+                </li>
+                <li>
+                    <a href="http://202.114.71.171/~2022g6/">潜匿：虚梦</a>
+                </li>
+                <li>
+                    <a href="https://readymag.website/u751009779/5179656/">每天都有人想骗我的钱</a>
+                </li>
+                <li>
+                    <a href="http://202.114.71.171/~2022g3/02">破诈征程</a>
+                </li>
+            </ul>
+            <ul>
+                <h3>联系我们</h3>
+                <li>
+                    <a href="#">办公地址：珞珈山樱花大道</a>
+                </li>
+                <li>
+                    <a href="#">邮编：430072</a>
+                </li>
+                <li>
+                    <a href="#">邮箱：3279270874@qq.com</a>
+                </li>
+                <li>
+                    <a href="#">电话：15034623166</a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+</body>
+<script src="gsap-public/gsap.min.js"></script>
+<script src="gsap-public/ScrollTrigger.min.js"></script>
+<!-- 文字显现 -->
+<script src="js/index.js"></script>
+<!-- 人物移动实现 -->
+<script>
+ScrollTrigger.create({
+    trigger:'#one',
+    start:'top top',
+    end:'+=1500',
+    scrub:true,
+    animation:
+        gsap.timeline()
+        .to("#one .left .person",{y:1000,duration:10})
+        .to("#one .center .person",{y:1000,duration:10},"<")
+        .to("#one .right .person",{y:1600,duration:15},"<")
+})
+</script>
+</html>
+
+
+
+
+

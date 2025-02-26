@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>互动游戏</title>
+    <link rel="stylesheet" href="css/game.css">
+    <link rel="stylesheet" href="css/footer.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li>
+                    <a href="index.html">首页</a>
+                </li>
+                <li>
+                    <a href="exprence.html">案例库</a>
+                </li>
+                <li>
+                    <a href="game.html">互动游戏</a>
+                </li>
+                <li>
+                    <a href="community.html">在线社区</a>
+                </li>
+                <li>
+                    <a href="about.html">关于我们</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <section id="one">
+        <img class="logo" src="images/home/首页灵御logo.png" alt="">
+        <img src="images/game/“最后一次转账”.png" alt="" class="title">
+        <img src="images/game/游戏首页男女.png" alt="" class="person_bg">
+        <ul>
+            <li>
+                <a href="#two"><img src="images/game/游戏首页“产品介绍”.png" alt=""></a>
+            </li>
+            <li>
+                <a href="#three"><img src="images/game/游戏人物.png" alt=""></a>
+            </li>
+            <li>
+                <a href="#eight"><img src="images/game/游戏玩法.png" alt=""></a>
+            </li>
+            <li>
+                <a href="#night"><img src="images/game/“进入游戏”.png" alt=""></a>
+            </li>
+        </ul>
+    </section>
+    <section id="two">
+        <div class="section_title">
+            <img src="images/game/“产品介绍”.png" alt="">
+        </div>
+        <img class="content_img" src="images/game/产品介绍文字.png" alt="">
+    </section>
+    <section id="three" class="role_introduce">
+            <img src="images/game/陈杰人物立绘.png" alt="" class="left_person">
+            <img src="images/game/人物背景的黑圈.png" alt="" class="bg">
+            <img src="images/game/“人物档案”.png" alt="" class="rwda">
+            <img src="images/game/陈杰人物介绍.png" alt="" class="introduce_img">
+    </section>
+    <section id="four" class="role_introduce">
+            <img src="images/game/林晓人物立绘.png" alt="" class="left_person">
+            <img src="images/game/人物背景的黑圈.png" alt="" class="bg">
+            <img src="images/game/“人物档案”.png" alt="" class="rwda">
+            <img src="images/game/林晓人物介绍.png" alt="" class="introduce_img">
+    </section>
+    <section id="five" class="role_introduce">
+            <img src="images/game/3.png" alt="" class="left_person">
+            <img src="images/game/人物背景的黑圈.png" alt="" class="bg">
+            <img src="images/game/“人物档案”.png" alt="" class="rwda">
+            <img src="images/game/4.png" alt="" class="introduce_img">
+    </section>
+    <section id="six" class="role_introduce">
+            <img src="images/game/1.png" alt="" class="left_person">
+            <img src="images/game/人物背景的黑圈.png" alt="" class="bg">
+            <img src="images/game/“人物档案”.png" alt="" class="rwda">
+            <img src="images/game/5.png" alt="" class="introduce_img">
+    </section>
+    <section id="seven" class="role_introduce">
+            <img src="images/game/2.png" alt="" class="left_person">
+            <img src="images/game/人物背景的黑圈.png" alt="" class="bg">
+            <img src="images/game/“人物档案”.png" alt="" class="rwda">
+            <img src="images/game/6.png" alt="" class="introduce_img">
+    </section>
+    <section id="eight">
+        <img class="section_title" src="images/game/游戏玩法2.png" alt="">
+        <div class="section_content">
+            <img src="images/game/剧情驱动.png" alt="">
+            <img src="images/game/线索收集.png" alt="">
+        </div>
+    </section>
+    <section id="night">
+        <!-- 图片部分 -->
+        <img class="section_title" src="images/game/诈-7.png" alt="">
+        
+        <!-- 视频部分 -->
+        <div class="video_show">
+            <video controls width="640" height="360">
+                <source src="images/game/video.mp4" type="video/mp4">
+                您的浏览器不支持视频播放，请下载视频查看。
+            </video>
+        </div>
+    
+        <!-- 下载按钮 -->
+        <div class="download_button">
+            <button id="downloadBtn">下载 Windows 版本</button>
+        </div>
+        
+        <!-- 样式 -->
+        <style>
+            /* 标题样式 */
+            #night .section_title {
+                position: absolute;
+                top: 76px;
+                left: 50%;
+                transform: translate(-50%, -50%);
+            }
+    
+            /* 视频容器样式 */
+            #night .video_show {
+                width: 640px;
+                height: 360px;
+                position: absolute;
+                left: 50%;
+                top: 50%;
+                transform: translate(-50%, -50%);
+            }
+    
+            /* 下载按钮容器样式 */
+            .download_button {
+                position: absolute; /* 相对父级定位 */
+                left: 50%; /* 居中 */
+                top: calc(50% + 200px); /* 视频高度(360px)的一半 + 按钮距离视频底部的间距 */
+                transform: translateX(-50%);
+            }
+    
+            /* 按钮样式 */
+            .download_button button {
+                background-color: white; /* 白色背景 */
+                color: black; /* 黑色文字 */
+                padding: 10px 20px; /* 按钮大小 */
+                font-size: 16px; /* 文字大小 */
+                border: 2px solid black; /* 黑色边框 */
+                border-radius: 5px; /* 圆角 */
+                cursor: pointer; /* 鼠标悬停显示手型 */
+                transition: all 0.3s ease; /* 动画效果 */
+            }
+    
+            .download_button button:hover {
+                background-color: black; /* 鼠标悬停时黑色背景 */
+                color: white; /* 白色文字 */
+            }
+        </style>
+    </section>
+    
+    <!-- 下载按钮的 JavaScript 功能 -->
+    <script>
+        document.getElementById('downloadBtn').addEventListener('click', function () {
+            const a = document.createElement('a');
+            a.href = 'images/windows.zip'; // 文件路径
+            a.download = '灵御windows.zip'; // 下载时的文件名
+            a.click(); // 模拟点击
+        });
+    </script>
+    <footer>
+        <div class="footer_top">
+            <div class="logo">
+                <img src="images/footer_logo.png" alt="">
+            </div>
+            <div class="search">
+                <input type="text" placeholder="search">
+                <button>搜索</button>
+            </div>
+        </div>
+        <div class="footer_content">
+            <ul>
+                <h3>网站地图</h3>
+                <li>
+                    <a href="index.html">首页</a>
+                </li>
+                <li>
+                    <a href="exprence.html">案例库</a>
+                </li>
+                <li>
+                    <a href="game.html">互动游戏</a>
+                </li>
+                <li>
+                    <a href="community.html">在线社区</a>
+                </li>
+                <li>
+                    <a href="about.html">关于我们</a>
+                </li>
+            </ul>
+            <ul>
+                <h3>友情链接</h3>
+                <li>
+                    <a href="https://beige-dinosaur-1f00c5.mysxl.cn/">狗不过狗</a>
+                </li>
+                <li>
+                    <a href="http://www.commedia.org.cn/~2022g9/">请回答2025</a>
+                </li>
+                <li>
+                    <a href="http://202.114.71.171/~2022g6/">潜匿：虚梦</a>
+                </li>
+                <li>
+                    <a href="https://readymag.website/u751009779/5179656/">每天都有人想骗我的钱</a>
+                </li>
+                <li>
+                    <a href="http://202.114.71.171/~2022g3/02">破诈征程</a>
+                </li>
+            </ul>
+            <ul>
+                <h3>联系我们</h3>
+                <li>
+                    <a href="#">办公地址：珞珈山樱花大道</a>
+                </li>
+                <li>
+                    <a href="#">邮编：430072</a>
+                </li>
+                <li>
+                    <a href="#">邮箱：3279270874@qq.com</a>
+                </li>
+                <li>
+                    <a href="#">电话：15034623166</a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+</body>
+<script src="js/nav.js"></script>
+</html>

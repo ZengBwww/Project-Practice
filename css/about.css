@@ -1,0 +1,184 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: '华文中宋';
+}
+body{
+    width: 1366px;
+    margin: 0 auto;
+}
+
+img{
+    display: block;
+}
+
+/* 导航栏 */
+nav{
+    height: 60px;
+    background-image: url(../images/nav_bg.png);
+    display: flex;
+    justify-content: end;
+    z-index: 999999;
+}
+
+nav ul{
+    height: 60px;
+    display: flex;
+    align-items: center;
+}
+
+nav ul li a{
+    padding: 0 30px;
+    color: rgb(0, 0, 0);
+    font-size: 24px;
+    line-height: 60px;
+}
+
+section{
+    position: relative;
+    width: 1366px;
+    height: 768px;
+    background-image: url(../images/home/首页底图.png);
+    background-size: cover;
+    overflow: hidden;
+}
+
+#one .left{
+    width: 622px;
+    position: absolute;
+    left: 155px;
+    top: 292px;
+    z-index: 99;
+}
+
+p{
+    text-indent: 2em;
+    font-size: 24px;
+    line-height: 1.5em;
+}
+
+#one .right{
+    width: 298px;
+    position: absolute;
+    left: 943px;
+    top: 145px;
+    z-index: 99;
+}
+
+#one .bg{
+    width: 1173px;
+    height: auto;
+    position: absolute;
+    left: 190px;
+    bottom: 0px;
+}
+
+#one .bg img{
+    width: 100%;
+}
+
+section#two{
+    height: 600px;
+}
+
+#two .bg{
+    width: 700px;
+    position: absolute;
+    left: -16px;
+    bottom: 0;
+}
+
+#two .content{
+    width: 696px;
+    position: absolute;
+    left: 497px;
+    top: 198px;
+    z-index: 999;
+}
+
+#two .content img{
+    width: 783px;
+}
+
+#three{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 5%;
+}
+
+#three .left,
+#three .right{
+    position: relative;
+    z-index: 99;
+}
+
+#three .left img:nth-child(2){
+    margin: 60px;
+}
+
+#three .content{
+    width: 510px;
+    height: auto;
+    position: absolute;
+    left: 645px;
+    top: 194px;
+}
+
+#three .bg{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+}
+#three .bg1{
+    width: 252px;
+    position: absolute;
+    right: 30px;
+    bottom: 30px;
+}
+#three .bg2{
+    width: 546px;
+    position: absolute;
+    left: 14px;
+    top: 21px;
+}
+#three .show1{
+    position: absolute;
+    left: 119px;
+    top: 157px;
+}
+#three .show2{
+    position: absolute;
+    left: 287px;
+    top: 447px;
+}
+
+section#four{
+    height: 620px;
+    padding: 30px 0;
+}
+
+#four .bg{
+    width: 892px;
+    height: 565px;
+    margin: 0 auto;
+}
+
+#four .content{
+    width: 1173px;
+    margin: 0 auto;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 99;
+}
+
+#four .content p{
+    font-size: 28px;
+}
